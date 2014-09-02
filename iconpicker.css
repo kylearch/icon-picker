@@ -1,0 +1,38 @@
+html {
+	height: 1200px;
+}
+.icon-picker .form-control {
+	border-top-right-radius:4px !important;
+	border-bottom-right-radius:4px !important;
+}
+
+.icon-menu {
+	display:block;
+	position:absolute;
+	width:auto;
+	/*height:400px;*/
+	margin:40px 0 0 -43px;
+	padding:20px;
+	border:1px solid #CCC;
+	border-radius:3px;
+	overflow:hidden;
+	clear:both;
+}
+
+.icon-container {
+	height:100%;
+	overflow-y:scroll;
+	clear:both;
+}
+
+.icon {
+	float:left;
+	margin:2px;
+	padding:3px 4px;
+	border-radius:3px;
+	cursor:pointer;
+}
+
+.icon:hover {
+	background:#CCC;
+}
